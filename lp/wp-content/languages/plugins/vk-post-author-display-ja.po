@@ -1,0 +1,314 @@
+# Translation of Plugins - VK Post Author Display - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - VK Post Author Display - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-02 05:56:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-rc.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - VK Post Author Display - Stable (latest release)\n"
+
+#: view.admin.php:134
+#, gp-priority: normal
+msgid "You can use short code too."
+msgstr "ショートコードも使えます。"
+
+#: view.admin.php:133
+#, gp-priority: normal
+msgid "Short code"
+msgstr "ショートコード"
+
+#: admin-profile.php:45
+#, gp-priority: normal
+msgid "amazon Wish List"
+msgstr "amazon 欲しい物リスト"
+
+#: inc/template-tags/package/template-tags.php:188
+#, gp-priority: normal
+msgid "Archives"
+msgstr "アーカイブ"
+
+#: inc/template-tags/package/template-tags.php:172
+#, gp-priority: normal
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr "チャット"
+
+#: inc/template-tags/package/template-tags.php:170
+#, gp-priority: normal
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr "音声ファイル"
+
+#: inc/template-tags/package/template-tags.php:168
+#, gp-priority: normal
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr "ステータス"
+
+#: inc/template-tags/package/template-tags.php:166
+#, gp-priority: normal
+msgctxt "post format archive title"
+msgid "Links"
+msgstr "リンク"
+
+#: inc/template-tags/package/template-tags.php:164
+#, gp-priority: normal
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr "引用"
+
+#: inc/template-tags/package/template-tags.php:162
+#, gp-priority: normal
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr "動画"
+
+#: inc/template-tags/package/template-tags.php:160
+#, gp-priority: normal
+msgctxt "post format archive title"
+msgid "Images"
+msgstr "画像"
+
+#: inc/template-tags/package/template-tags.php:158
+#, gp-priority: normal
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr "ギャラリー"
+
+#: inc/template-tags/package/template-tags.php:156
+#, gp-priority: normal
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr "アサイド"
+
+#: inc/template-tags/package/template-tags.php:153
+#, gp-priority: normal
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "Y年n月j日"
+
+#: inc/template-tags/package/template-tags.php:151
+#: inc/template-tags/package/template-tags.php:235
+#, gp-priority: normal
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "Y年n月"
+
+#: inc/template-tags/package/template-tags.php:149
+#: inc/template-tags/package/template-tags.php:231
+#, gp-priority: normal
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y年"
+
+#: inc/template-tags/package/template-tags.php:147
+#, gp-priority: normal
+msgid "Author: %s"
+msgstr "投稿者: %s"
+
+#: inc/vk-admin/vk-admin-config.php:23 view.admin.php:144 view.admin.php:147
+#, gp-priority: normal
+msgid "Display post types"
+msgstr "表示する投稿タイプ"
+
+#: view.admin.php:125
+#, gp-priority: normal
+msgid "If you wantt to control of display position, please select the \"no\" and write this code to the template file"
+msgstr "表示位置を制御したい場合は、「いいえ」を選択して以下のコードをテンプレートファイルに書き込んでください。"
+
+#: view.admin.php:100
+#, gp-priority: normal
+msgid "Auto display"
+msgstr "自動表示"
+
+#: inc/vk-admin/package/class-vk-admin.php:390
+#, gp-priority: normal
+msgid "Vektor WordPress Information"
+msgstr "Vektor WordPress Information"
+
+#. Author URI of the plugin
+#, gp-priority: normal
+msgid "https://ex-unit.nagoya/"
+msgstr "https://ex-unit.nagoya/ja/"
+
+#. Author of the plugin
+#, gp-priority: normal
+msgid "Vektor,Inc."
+msgstr "Vektor,Inc."
+
+#. Description of the plugin
+#, gp-priority: normal
+msgid "Show post author information at post bottom."
+msgstr "投稿者情報を本文の下部に表示します。"
+
+#. Plugin URI of the plugin
+#, gp-priority: normal
+msgid "http://wordpress.org/extend/plugins/vk-post-author-display/"
+msgstr "https://ja.wordpress.org/plugins/vk-post-author-display/"
+
+#. Plugin Name of the plugin
+#, gp-priority: normal
+msgid "VK Post Author Display"
+msgstr "VK Post Author Display"
+
+#: view.admin.php:105
+#, gp-priority: normal
+msgid "no"
+msgstr "いいえ"
+
+#: view.admin.php:104
+#, gp-priority: normal
+msgid "yes"
+msgstr "はい"
+
+#: view.admin.php:82
+#, gp-priority: normal
+msgid "display thumbnail image"
+msgstr "サムネイル画像を表示する"
+
+#: view.admin.php:77
+#, gp-priority: normal
+msgid "Display post thumbnail image"
+msgstr "記事のサムネイル画像を表示する"
+
+#: view.admin.php:72
+#, gp-priority: normal
+msgid "Author archives text"
+msgstr "著者アーカイブリンクのテキスト"
+
+#: view.admin.php:55
+#, gp-priority: normal
+msgid "display author archive link"
+msgstr "著者アーカイブのリンクを表示する"
+
+#: view.admin.php:54 view.admin.php:81
+#, gp-priority: normal
+msgid "hide"
+msgstr "表示しない"
+
+#: view.admin.php:50
+#, gp-priority: normal
+msgid "Display post author archive page link"
+msgstr "著者アーカイブページへのリンクを表示する"
+
+#: view.admin.php:45
+#, gp-priority: normal
+msgid "Post list box title"
+msgstr "最新記事一覧のタイトル"
+
+#: view.admin.php:28
+#, gp-priority: normal
+msgid "Circle"
+msgstr "円形"
+
+#: view.admin.php:27
+#, gp-priority: normal
+msgid "Square"
+msgstr "四角形"
+
+#: view.admin.php:19
+#, gp-priority: normal
+msgid "Profile Picture Style"
+msgstr "プロフィール写真の形状"
+
+#: view.admin.php:15
+#, gp-priority: normal
+msgid "Post author box title"
+msgstr "タイトル"
+
+#: view.admin-profile.php:31
+#, gp-priority: normal
+msgid "If you set the \"VK Post Author Display Profile Picture\", this image overrides the normal profile picture."
+msgstr "VK Post Author Display のプロフィール写真が設定されている場合は、標準のプロフィール写真よりも優先して表示されます。"
+
+#: view.admin-profile.php:29
+#, gp-priority: normal
+msgid "Reset image"
+msgstr "画像をリセット"
+
+#: view.admin-profile.php:26
+#, gp-priority: normal
+msgid "Choose image"
+msgstr "画像を選択"
+
+#: view.admin-profile.php:7
+#, gp-priority: normal
+msgid "Profile Picture<br>(VK Post Author Display)"
+msgstr "プロフィール写真<br>(VK Post Author Display)"
+
+#: post-author-display.php:228
+#, gp-priority: normal
+msgctxt "label in admin menu"
+msgid "VK Post Author Display"
+msgstr "VK Post Author Display"
+
+#: post-author-display.php:227
+#, gp-priority: normal
+msgid "VK Post Author Display setting"
+msgstr "VK Post Author Display 設定"
+
+#: post-author-display.php:181
+#, gp-priority: normal
+msgid "Author Archives"
+msgstr "投稿者アーカイブ"
+
+#: post-author-display.php:179
+#, gp-priority: normal
+msgid "Latest entries"
+msgstr "最新の投稿"
+
+#: post-author-display.php:177
+#, gp-priority: normal
+msgid "Author Profile"
+msgstr "投稿者プロフィール"
+
+#: post-author-display.php:86
+#, gp-priority: normal
+msgid "Setting"
+msgstr "設定"
+
+#: inc/vk-admin/vk-admin-config.php:24
+#, gp-priority: normal
+msgid "Edit your profile"
+msgstr "プロフィールを編集"
+
+#: inc/vk-admin/vk-admin-config.php:22 view.admin.php:12
+#, gp-priority: normal
+msgid "Post Author Box Setting"
+msgstr "著者情報表示エリアの設定"
+
+#: inc/vk-admin/vk-admin-config.php:18
+#, gp-priority: normal
+msgid "VK Post Author Display Main Setting"
+msgstr "VK Post Author Display 設定"
+
+#: inc/vk-admin/package/class-vk-admin.php:336
+#, gp-priority: normal
+msgid "Sorry, there is no post"
+msgstr "投稿はありません"
+
+#: inc/term-color/package/class.term-color.php:41
+#: inc/term-color/package/class.term-color.php:56
+#: inc/term-color/package/class.term-color.php:130
+#, gp-priority: normal
+msgid "Color"
+msgstr "色"
+
+#: hide_controller.php:41
+#, gp-priority: normal
+msgid "Don't display post author"
+msgstr "著者情報を表示しない"
+
+#: hide_controller.php:22
+#, gp-priority: normal
+msgid "Post Author Display"
+msgstr "著者情報の表示"
+
+#: admin-profile.php:56
+#, gp-priority: normal
+msgid "Caption<br>(VK Post Author Display)"
+msgstr "肩書<br>(VK Post Author Display)"

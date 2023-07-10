@@ -1,0 +1,2317 @@
+# Translation of Plugins - WP Statistics - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - WP Statistics - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-03-18 14:12:58+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - WP Statistics - Stable (latest release)\n"
+
+#: includes/admin/templates/layout/tabs-settings.php:8
+msgid "Roles"
+msgstr "権限グループ"
+
+#. translators: %s: Table name.
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:87
+msgid "The %s table is okay."
+msgstr "%s テーブルには問題が見つかりませんでした。"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:106
+msgid "The %s table is already optimized."
+msgstr "%s テーブルは最適化済みです。"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:90
+msgid "The %1$s table is not okay. It is reporting the following error: %2$s. WordPress will attempt to repair this table&hellip;"
+msgstr "%1$s テーブルが「%2$s」エラーを返しています。WordPress はこのテーブルの修復を試みます&hellip;"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:95
+msgid "Successfully repaired the %s table."
+msgstr "%s テーブルの修復に成功しました。"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:111
+msgid "Successfully optimized the %s table."
+msgstr "%s テーブルの最適化に成功しました。"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:97
+msgid "Failed to repair the %1$s table. Error: %2$s"
+msgstr "テーブル %1$s の修復に失敗しました。エラー: %2$s"
+
+#: includes/admin/templates/optimization/database.php:54
+msgid "Run Now!"
+msgstr "今すぐ実行 !"
+
+#: includes/admin/templates/optimization/database.php:38
+msgid "Optimize Table:"
+msgstr "テーブルを最適化:"
+
+#: includes/admin/templates/settings/access-level.php:9
+msgid "User Roles"
+msgstr "ユーザー権限グループ"
+
+#: includes/admin/templates/settings/overview-display.php:37
+msgid "Map Display:"
+msgstr "地図表示:"
+
+#: includes/admin/templates/settings/exclusions.php:101
+msgid "Add"
+msgstr "追加"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:279
+#: includes/admin/templates/pages/online.php:22
+#: includes/admin/templates/pages/top-visitors.php:28
+#: includes/admin/templates/pages/visitors.php:41
+msgid "User"
+msgstr "ユーザー"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:274
+msgid "Filter"
+msgstr "絞り込み"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:352
+msgid "Done"
+msgstr "完了"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:356
+msgid "Show a different month"
+msgstr "他の月を表示"
+
+#: includes/admin/templates/pages/author.php:48
+#: includes/admin/templates/pages/tag.php:48
+msgid "Visits Total:"
+msgstr "総訪問数:"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:272
+msgid "Percentage"
+msgstr "パーセント"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:270
+#: includes/admin/templates/pages/pages.php:32
+msgid "No data to display"
+msgstr "表示するデータがありません"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:203
+msgid "Filters"
+msgstr "フィルター"
+
+#: includes/class-wp-statistics-exclusion.php:27
+#: includes/class-wp-statistics-pages.php:355
+msgid "Feed"
+msgstr "フィード"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:266
+msgid "Custom"
+msgstr "カスタム"
+
+#: includes/class-wp-statistics.php:81
+msgid "Cloning is forbidden."
+msgstr "複製は禁止されています。"
+
+#: includes/class-wp-statistics-helper.php:766
+msgid "Category"
+msgstr "カテゴリー"
+
+#: includes/class-wp-statistics-exclusion.php:17
+msgid "Ajax"
+msgstr "Ajax"
+
+#: includes/class-wp-statistics-exclusion.php:28
+msgid "404"
+msgstr "404"
+
+#: includes/class-wp-statistics.php:297
+msgid "</strong> or greater."
+msgstr "</strong>またはそれ以上。"
+
+#: includes/class-wp-statistics-exclusion.php:21
+msgid "Broken Link"
+msgstr "壊れたリンク"
+
+#: includes/class-wp-statistics-exclusion.php:33
+msgid "Honeypot"
+msgstr "ハニーポット"
+
+#: includes/class-wp-statistics-meta-box.php:220
+msgid "Pages Hits"
+msgstr "ページヒット数"
+
+#: includes/admin/templates/settings/visitor-ip.php:19
+msgid "Value"
+msgstr "値"
+
+#: includes/admin/templates/settings/visitor-ip.php:18
+msgid "$_SERVER"
+msgstr "$_SERVER"
+
+#: includes/admin/templates/settings/visitor-ip.php:143
+msgid "Show all <code>$_SERVER</code> in your server."
+msgstr "サーバー内のすべての <code>$_SERVER</code> を表示します。"
+
+#: includes/admin/templates/settings/visitor-ip.php:120
+msgid "Use Custom Header"
+msgstr "カスタムヘッダーを使う"
+
+#: includes/admin/templates/layout/tabs-settings.php:4
+msgid "Visitor IP"
+msgstr "訪問者 IP"
+
+#: includes/admin/templates/optimization/resources.php:292
+msgid "Server Info"
+msgstr "サーバー情報"
+
+#: includes/class-wp-statistics-install.php:490
+msgid "Upgrade Database"
+msgstr "データベースを更新"
+
+#: includes/class-wp-statistics-install.php:563
+msgid "Please don't close the browser window until the database operation was completed."
+msgstr "データベース操作が完了するまで、ブラウザーのウィンドウを閉じないでください。"
+
+#: includes/admin/class-wp-statistics-admin-template.php:175
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/admin/class-wp-statistics-admin-template.php:174
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: includes/class-wp-statistics-user-agent.php:58
+msgid "Firefox"
+msgstr "Firefox"
+
+#: includes/class-wp-statistics-user-agent.php:57
+msgid "Chrome"
+msgstr "Chrome"
+
+#: includes/class-wp-statistics-user-agent.php:60
+msgid "Edge"
+msgstr "Edge"
+
+#: includes/class-wp-statistics-user-agent.php:59
+msgid "Internet Explorer"
+msgstr "Internet Explorer"
+
+#: includes/admin/templates/settings/externals.php:180
+msgid "Click button to download the update."
+msgstr "ボタンをクリックしてアップデートをダウンロードします。"
+
+#: includes/class-wp-statistics-pages.php:367
+msgid "Post Archive"
+msgstr "投稿アーカイブ"
+
+#: includes/class-wp-statistics-pages.php:342
+msgid "Home Page"
+msgstr "ホームページ"
+
+#: includes/class-wp-statistics-pages.php:361
+msgid "Search Page"
+msgstr "検索ページ"
+
+#: includes/class-wp-statistics-pages.php:364
+msgid "404 not found"
+msgstr "404: 見つかりませんでした"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-online.php:34
+msgid "Currently, there are no online users on the site."
+msgstr "現在、サイトにはオンラインユーザーはいません。"
+
+#: includes/admin/templates/pages/top.refer.php:19
+msgid "Rating"
+msgstr "評価"
+
+#: includes/admin/templates/pages/top.refer.php:21
+msgid "Site Title"
+msgstr "サイトのタイトル"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-referring.php:35
+#: includes/admin/templates/pages/top.refer.php:22
+msgid "Server IP"
+msgstr "サーバー IP"
+
+#: includes/admin/templates/pages/top.refer.php:20
+msgid "Site Url"
+msgstr "サイト URL"
+
+#: includes/class-wp-statistics-user-agent.php:62
+msgid "Safari"
+msgstr "Safari"
+
+#: includes/class-wp-statistics-user-agent.php:61
+msgid "Opera"
+msgstr "Opera"
+
+#: includes/admin/templates/meta-box/about.php:21
+msgid "Power by VeronaLabs"
+msgstr "Power by VeronaLabs"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:249
+#: includes/admin/templates/pages/online.php:45
+#: includes/admin/templates/pages/pages.php:38
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:65
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:63
+msgid "Format"
+msgstr "フォーマット"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:251
+#: includes/admin/templates/pages/pages.php:40
+#: includes/admin/templates/pages/refer.url.php:29
+msgid "Link"
+msgstr "リンク"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:250
+#: includes/admin/templates/pages/pages.php:39
+msgid "Title"
+msgstr "タイトル"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:257
+#: includes/admin/templates/pages/online.php:21
+#: includes/admin/templates/pages/top-visitors.php:29
+#: includes/admin/templates/pages/visitors.php:49
+#: includes/admin/templates/pages/words.php:35
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:50
+#: includes/class-wp-statistics-shortcode.php:182
+msgid "Referrer"
+msgstr "リファラー"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:255
+#: includes/admin/templates/pages/online.php:16
+#: includes/admin/templates/pages/top-visitors.php:23
+#: includes/admin/templates/pages/visitors.php:30
+#: includes/admin/templates/pages/words.php:31
+msgid "City"
+msgstr "市区町村"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:264
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:57
+msgid "Month"
+msgstr "月"
+
+#: includes/admin/class-wp-statistics-admin-template.php:267
+#: includes/class-wp-statistics-geoip.php:483
+#: includes/class-wp-statistics-user-agent.php:77
+msgid "Unknown"
+msgstr "不明"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:263
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:56
+msgid "Week"
+msgstr "週"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:265
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:58
+msgid "Year"
+msgstr "年"
+
+#: includes/admin/templates/settings/externals.php:26
+#: includes/admin/templates/settings/externals.php:43
+msgid "Update Database"
+msgstr "データベースの更新"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:243
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:52
+msgid "Time"
+msgstr "時刻"
+
+#: includes/admin/templates/settings/exclusions.php:148
+#: includes/admin/templates/settings/exclusions.php:156
+msgid "(%1$sISO 3166 Country Codes%2$s)"
+msgstr "(%1$sISO 3166 国コード%2$s)"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:35
+msgid "Stat"
+msgstr "統計情報"
+
+#: includes/admin/templates/settings/privacy.php:14
+msgid "Anonymize IP Addresses:"
+msgstr "IP アドレスの匿名化:"
+
+#: includes/admin/templates/settings/notifications.php:180
+msgid "Admin Notices"
+msgstr "管理者向け通知"
+
+#: includes/admin/templates/settings/notifications.php:185
+msgid "All Notices:"
+msgstr "すべての通知:"
+
+#: includes/admin/templates/settings/general.php:134
+msgid "Pages:"
+msgstr "固定ページ:"
+
+#: includes/admin/templates/settings/notifications.php:144
+msgid "Message body:"
+msgstr "メッセージ本文:"
+
+#: includes/admin/templates/settings/general.php:16
+msgid "Online User:"
+msgstr "オンラインユーザー:"
+
+#: includes/admin/templates/settings/general.php:82
+msgid "Visitors:"
+msgstr "訪問者:"
+
+#: includes/admin/templates/settings/general.php:61
+msgid "Visits:"
+msgstr "訪問数:"
+
+#: includes/admin/templates/settings/externals.php:107
+msgid "Use \"000\" (three zeros) to use \"Unknown\" as the country code."
+msgstr "\"000\" (ゼロ3個) を「不明」な国番号として使う。"
+
+#: includes/admin/templates/settings/exclusions.php:148
+#: includes/admin/templates/settings/exclusions.php:156
+msgid "Use \"000\" (three zeros) to exclude unknown countries."
+msgstr "\"000\" (ゼロ3個) を不明な国番号とを除外するために使う。"
+
+#: includes/admin/templates/settings/exclusions.php:109
+msgid "Use Honey Pot:"
+msgstr "ハニーポットを使う:"
+
+#: includes/admin/templates/optimization/purging.php:252
+#: includes/admin/templates/settings/maintenance.php:71
+msgid "Minimum value is 10 hits."
+msgstr "最小値は10ヒットです。"
+
+#: includes/admin/templates/optimization/purging.php:236
+msgid "Minimum value is 30 days."
+msgstr "最小値は30日です。"
+
+#: includes/admin/templates/optimization/purging.php:236
+msgid "Delete user statistics data older than the selected number of days."
+msgstr "選択された日数より古いユーザーの統計データを削除する。"
+
+#: includes/admin/templates/optimization/purging.php:252
+msgid "This can be useful to clear up old data when your site has been hit by a bot."
+msgstr "これは、サイトがボットに攻撃されたときに、古いデータをクリアするのに便利です。"
+
+#: includes/admin/templates/optimization/updates.php:14
+msgid "Countries:"
+msgstr "国:"
+
+#: includes/admin/templates/optimization/purging.php:320
+msgid "Delete IP:"
+msgstr "IP 削除:"
+
+#: includes/admin/templates/layout/tabs-settings.php:5
+msgid "Privacy"
+msgstr "プライバシー"
+
+#: includes/admin/templates/settings/general.php:234
+msgid "After Content"
+msgstr "コンテンツの後"
+
+#: includes/admin/templates/settings/general.php:233
+msgid "Before Content"
+msgstr "コンテンツの前"
+
+#: includes/admin/templates/settings/general.php:129
+msgid "Pages and Posts"
+msgstr "固定ページと投稿"
+
+#: includes/admin/templates/layout/select.php:5
+msgid "Select Page"
+msgstr "固定ページを選択"
+
+#: includes/admin/templates/settings/general.php:227
+msgid "Display position:"
+msgstr "表示位置:"
+
+#: includes/admin/templates/postbox.php:12
+msgid "Subscribe"
+msgstr "購読"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:99
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:101
+#: includes/class-wp-statistics-menus.php:256
+msgid "Platforms"
+msgstr "プラットフォーム"
+
+#: includes/admin/templates/meta-box/about.php:18
+#: includes/class-wp-statistics-menus.php:291
+#: includes/class-wp-statistics-menus.php:292
+msgid "Add-Ons"
+msgstr "アドオン"
+
+#: includes/class-wp-statistics-helper.php:766
+#: includes/class-wp-statistics-menus.php:235
+msgid "Tags"
+msgstr "タグ"
+
+#: includes/class-wp-statistics-menus.php:228
+msgid "Categories"
+msgstr "カテゴリー"
+
+#: includes/admin/templates/layout/tabs-settings.php:12
+#: includes/admin/templates/settings/reset.php:15
+msgid "Reset"
+msgstr "リセット"
+
+#: includes/admin/templates/settings/notifications.php:154
+msgid "Online User"
+msgstr "オンラインユーザー"
+
+#: includes/admin/templates/meta-box/about.php:17
+#: includes/admin/templates/settings/about.php:117
+msgid "Documentation"
+msgstr "ドキュメンテーション"
+
+#: includes/admin/templates/add-ons.php:51
+msgid "Buy Add-On"
+msgstr "アドオンの購入"
+
+#: includes/admin/templates/settings/notifications.php:158
+#: includes/class-wp-statistics-admin-bar.php:93
+#: includes/class-wp-statistics-widget.php:48
+#: includes/class-wp-statistics-widget.php:268
+msgid "Today's Visits"
+msgstr "今日の閲覧数"
+
+#: includes/admin/templates/settings/notifications.php:156
+#: includes/class-wp-statistics-admin-bar.php:89
+#: includes/class-wp-statistics-widget.php:55
+#: includes/class-wp-statistics-widget.php:272
+msgid "Today's Visitors"
+msgstr "今日の閲覧者"
+
+#: includes/class-wp-statistics-widget.php:76
+#: includes/class-wp-statistics-widget.php:284
+msgid "Last 7 Days Visits"
+msgstr "ここ7日間の訪問者数"
+
+#: includes/class-wp-statistics-widget.php:83
+#: includes/class-wp-statistics-widget.php:288
+msgid "Last 30 Days Visits"
+msgstr "ここ30日間の訪問者数"
+
+#: includes/class-wp-statistics-widget.php:90
+#: includes/class-wp-statistics-widget.php:292
+msgid "Last 365 Days Visits"
+msgstr "ここ365日間の訪問者数"
+
+#: includes/admin/templates/add-ons.php:31
+#: includes/admin/templates/settings/general.php:251
+msgid "Status:"
+msgstr "ステータス:"
+
+#: includes/admin/templates/add-ons.php:30
+msgid "Version:"
+msgstr "バージョン:"
+
+#: includes/admin/templates/settings/about.php:108
+msgid "Have you read the %sFAQs%s?"
+msgstr "%sFAQ%s を読みましたか ?"
+
+#: includes/admin/templates/settings/about.php:115
+msgid "Have you read the %sdocumentation%s?"
+msgstr "%sドキュメンテーション%sを読みましたか ?"
+
+#: includes/admin/templates/add-ons.php:45
+msgid "Deactivate Add-On"
+msgstr "アドオンを無効化"
+
+#: includes/admin/templates/plugins.php:4
+msgid "Extensions for WP-Statistics"
+msgstr "WP-Statistics の拡張機能"
+
+#: includes/admin/templates/settings/about.php:122
+msgid "Have you search the %ssupport forum%s for a similar issue?"
+msgstr "同様の問題について%sサポートフォーラム%sを検索しましたか ?"
+
+#: includes/admin/templates/plugins.php:6
+msgid "These extensions add functionality to your WP-Statistics."
+msgstr "これらの拡張機能は WP-Statistics に機能を追加します。"
+
+#: includes/admin/templates/add-ons.php:36
+msgid "Inactive"
+msgstr "無効"
+
+#: includes/class-wp-statistics-menus.php:242
+msgid "Authors"
+msgstr "投稿者"
+
+#: includes/admin/templates/settings/about.php:144
+msgid "Are you getting a blank or incomplete page displayed in your browser?"
+msgstr "ブラウザーに空白または不完全なページが表示されていませんか ?"
+
+#: includes/admin/templates/settings/about.php:149
+msgid "Did you view the source for the page and check for any fatal errors?"
+msgstr "ページのソースを表示し、致命的なエラーがないか確認しましたか ?"
+
+#: includes/admin/templates/add-ons.php:47
+msgid "Activate Add-On"
+msgstr "アドオンを有効化"
+
+#: includes/admin/templates/settings/reset.php:16
+msgid "Reset all the options to default. Resetting the options will remove all user and global settings but will keep all other data. This action cannot be undone. Note: For multisite installs, this will reset all sites to the default settings."
+msgstr "プラグインオプションをデフォルトにリセットします。 これにより、ユーザーおよびグローバル設定はすべて削除されますが、その他のデータはすべて保持されます。この操作は元に戻すことができません。注: マルチサイトインストールの場合、これによりすべてのサイトがデフォルトにリセットされます。"
+
+#: includes/admin/templates/settings/reset.php:10
+msgid "Reset Options:"
+msgstr "設定をリセット:"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:51
+msgid "Select Category"
+msgstr "カテゴリーを選択"
+
+#: includes/admin/templates/layout/date.range.php:15
+msgid "Select"
+msgstr "選択"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:271
+#: includes/admin/templates/pages/author.php:32
+#: includes/admin/templates/pages/author.php:79
+#: includes/admin/templates/pages/category.php:32
+#: includes/admin/templates/pages/category.php:79
+#: includes/admin/templates/pages/tag.php:32
+#: includes/admin/templates/pages/tag.php:79
+msgid "Count"
+msgstr "カウント"
+
+#: includes/admin/templates/pages/author.php:6
+#: includes/admin/templates/pages/author.php:9
+msgid "Author Statistics Chart"
+msgstr "投稿者の統計チャート"
+
+#: includes/admin/templates/pages/author.php:23
+#: includes/admin/templates/pages/author.php:26
+msgid "Author Statistics Summary"
+msgstr "投稿者の統計概要"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:51
+msgid "Select Author"
+msgstr "投稿者を選択"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:39
+msgid "Author Statistics"
+msgstr "投稿者の統計"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:231
+msgid "Reload"
+msgstr "再読み込み"
+
+#: includes/admin/templates/optimization/resources.php:95
+msgid "PHP IPv6 Enabled"
+msgstr "PHP IPv6 有効"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:230
+msgid "More Details"
+msgstr "詳細情報"
+
+#: includes/admin/templates/pages/author.php:6
+#: includes/admin/templates/pages/author.php:23
+#: includes/admin/templates/pages/author.php:70
+#: includes/admin/templates/pages/category.php:6
+#: includes/admin/templates/pages/category.php:23
+#: includes/admin/templates/pages/category.php:70
+#: includes/admin/templates/pages/pages.php:6
+#: includes/admin/templates/pages/pages.php:24
+#: includes/admin/templates/pages/refer.url.php:19
+#: includes/admin/templates/pages/tag.php:6
+#: includes/admin/templates/pages/tag.php:23
+#: includes/admin/templates/pages/tag.php:70
+msgid "Toggle panel: %s"
+msgstr "パネルを閉じる: %s"
+
+#: includes/admin/templates/optimization/resources.php:104
+msgid "Is PHP compiled with IPv6 support. You may see warning messages in your PHP log if it is not and you receive HTTP headers with IPv6 addresses in them."
+msgstr "PHP は IPv6 対応でコンパイルされていますか ? そうでない場合、PHP ログに警告メッセージが表示され、IPv6 アドレスが含まれる HTTP ヘッダーを受信する場合があります。"
+
+#: includes/admin/templates/optimization/resources.php:174
+msgid "BCMath PHP extension"
+msgstr "BCMath PHP 拡張"
+
+#: includes/class-wp-statistics-user-agent.php:32
+#: includes/class-wp-statistics-user-agent.php:146
+msgctxt "Browser"
+msgid "Unknown"
+msgstr "不明"
+
+#: includes/defines/country-codes.php:6
+msgctxt "Country"
+msgid "Unknown"
+msgstr "不明"
+
+#: includes/admin/templates/optimization/resources.php:158
+msgid "GMP PHP extension"
+msgstr "GMP PHP 拡張"
+
+#: includes/admin/templates/pages/author.php:39
+msgid "Number of posts by author:"
+msgstr "投稿者の投稿数:"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-platforms.php:73
+#: includes/class-wp-statistics-user-agent.php:33
+#: includes/class-wp-statistics-user-agent.php:116
+msgctxt "Platform"
+msgid "Unknown"
+msgstr "不明"
+
+#: includes/class-wp-statistics-search-engine.php:151
+msgctxt "Search Engine"
+msgid "Unknown"
+msgstr "不明"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:52
+msgid "Select Tag"
+msgstr "タグを選択"
+
+#: includes/class-wp-statistics-user-agent.php:34
+#: includes/class-wp-statistics-user-agent.php:151
+msgctxt "Version"
+msgid "Unknown"
+msgstr "不明"
+
+#: includes/admin/class-wp-statistics-admin-network.php:29
+#: includes/admin/class-wp-statistics-admin-network.php:59
+#: includes/class-wp-statistics-menus.php:166
+msgid "Overview"
+msgstr "概要"
+
+#: includes/admin/class-wp-statistics-admin-network.php:61
+#: includes/class-wp-statistics-menus.php:179
+msgid "Online"
+msgstr "オンライン"
+
+#: includes/admin/class-wp-statistics-admin-network.php:62
+#: includes/class-wp-statistics-menus.php:193
+msgid "Referrers"
+msgstr "参照元"
+
+#: includes/admin/class-wp-statistics-admin-network.php:63
+#: includes/class-wp-statistics-menus.php:200
+msgid "Search Words"
+msgstr "検索ワード"
+
+#: includes/admin/class-wp-statistics-admin-network.php:69
+#: includes/admin/pages/class-wp-statistics-admin-page-top-visitors-today.php:32
+#: includes/class-wp-statistics-menus.php:263
+msgid "Top Visitors Today"
+msgstr "今日のトップ訪問者"
+
+#: includes/admin/class-wp-statistics-admin-network.php:71
+#: includes/class-wp-statistics-menus.php:277
+msgid "Optimization"
+msgstr "最適化"
+
+#: includes/admin/class-wp-statistics-admin-network.php:50
+msgid "Site"
+msgstr "サイト"
+
+#: includes/admin/class-wp-statistics-admin-network.php:51
+msgid "Options"
+msgstr "オプション"
+
+#: includes/class-wp-statistics-geoip.php:314
+msgid "Error downloading GeoIP database from: %s - %s"
+msgstr "エラー GeoIPデータベースのダウンロード中: %s - %sから"
+
+#: includes/class-wp-statistics-geoip.php:329
+msgid "Error could not open downloaded GeoIP database for reading: %s"
+msgstr "エラー ダウンロードしたGeoIPデータベースを読み取り時に開くことができませんでした: %s"
+
+#: includes/class-wp-statistics-geoip.php:338
+msgid "Error could not open destination GeoIP database for writing %s"
+msgstr "エラー %sを書き込む際GeoIPデータベースをオープンできませんでした"
+
+#: includes/class-wp-statistics-geoip.php:353
+msgid "GeoIP Database updated successfully!"
+msgstr "GeoIPデータベースが正常に更新されました!"
+
+#: includes/class-wp-statistics-geoip.php:373
+msgid "GeoIP update on"
+msgstr "GeoIP更新"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:36
+#: includes/admin/pages/class-wp-statistics-admin-page-settings.php:16
+msgid "You do not have sufficient permissions to access this page."
+msgstr "このページにアクセスするための十分なアクセス権がありません。"
+
+#. Plugin URI of the plugin
+msgid "https://wp-statistics.com/"
+msgstr "https://wp-statistics.com/"
+
+#: includes/admin/templates/settings/maintenance.php:14
+msgid "Purge Old Data Daily"
+msgstr "古いデータを消去する"
+
+#: includes/admin/templates/settings/maintenance.php:25
+msgid "A WP Cron job will be run daily to purge any data older than a set number of days."
+msgstr "WP cronを毎日実行し, 設定された日数よりも古いデータをすべて消去します。"
+
+#: includes/admin/templates/settings/maintenance.php:47
+msgid "Purge High Hit Count Visitors Daily"
+msgstr "ヒット数が多すぎる訪問者を除去する"
+
+#: includes/admin/templates/settings/maintenance.php:59
+msgid "A WP Cron job will be run daily to purge any users statistics data where the user has more than the defined number of hits in a day (aka they are probably a bot)."
+msgstr "WP Cronを毎日実行し, 1日のヒット数が設定された数よりも多いユーザー(おそらくボットです)の統計データを除去します."
+
+#: includes/class-wp-statistics-shortcode.php:218
+msgid "Post/Page ID"
+msgstr "投稿/ページID"
+
+#: includes/class-wp-statistics-shortcode.php:189
+msgid "The time frame to get the statistic for, strtotime() (http://php.net/manual/en/datetime.formats.php) will be used to calculate it. Use \"total\" to get all recorded dates."
+msgstr "統計を取得する時間を計算するために, 関数strtotime() (http://php.net/manual/en/datetime.formats.php) が使用されます. 記録された日付すべてを取得するには「合計」を使用してください."
+
+#: includes/admin/class-wp-statistics-admin-notices.php:123
+msgid "visitor tracking"
+msgstr "訪問者追跡"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:118
+msgid "hit tracking"
+msgstr "ヒットの追跡"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:113
+msgid "online user tracking"
+msgstr "オンラインユーザ追跡"
+
+#: includes/admin/templates/layout/tabs-settings.php:10
+msgid "Externals"
+msgstr "外部"
+
+#: includes/admin/templates/settings/exclusions.php:205
+msgid "Exclude any URL that returns a \"404 - Not Found\" message."
+msgstr "”404 -Not Found”メッセージを返す全てのURLを除外します。"
+
+#: includes/admin/templates/settings/general.php:314
+msgid "If a search engine is identified as the referrer but it does not include the search query this option will substitute the page title in quotes preceded by \"~:\" as the search query to help identify what the user may have been searching for."
+msgstr "検索エンジンが参照元であるにも関わらず検索問い合わせが含まれていない場合、このオプションは、ユーザーが探しているかもしれないものを識別するために役立つようにページタイトルを\"~:\"で始まる引用で置き換えます。"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:39
+#: includes/class-wp-statistics-shortcode.php:171
+msgid "Page Visits"
+msgstr "ページ訪問数"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:42
+#: includes/class-wp-statistics-shortcode.php:174
+msgid "Page Count"
+msgstr "ページ数"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:43
+#: includes/class-wp-statistics-shortcode.php:175
+msgid "Comment Count"
+msgstr "コメント数"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:44
+#: includes/class-wp-statistics-shortcode.php:176
+msgid "Spam Count"
+msgstr "スパム数"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:45
+#: includes/class-wp-statistics-shortcode.php:177
+msgid "User Count"
+msgstr "ユーザ数"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:46
+#: includes/class-wp-statistics-shortcode.php:178
+#: includes/class-wp-statistics-widget.php:160
+#: includes/class-wp-statistics-widget.php:351
+msgid "Post Average"
+msgstr "投稿数の平均"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:47
+#: includes/class-wp-statistics-shortcode.php:179
+#: includes/class-wp-statistics-widget.php:167
+#: includes/class-wp-statistics-widget.php:355
+msgid "Comment Average"
+msgstr "コメント数の平均"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:48
+#: includes/class-wp-statistics-shortcode.php:180
+#: includes/class-wp-statistics-widget.php:174
+#: includes/class-wp-statistics-widget.php:359
+msgid "User Average"
+msgstr "ユーザ数の平均"
+
+#: includes/class-wp-statistics-shortcode.php:196
+msgid "Search Provider"
+msgstr "検索プロバイダ"
+
+#: includes/class-wp-statistics-shortcode.php:203
+msgid "Number Format"
+msgstr "数の書式"
+
+#: includes/class-wp-statistics-shortcode.php:213
+msgid "English"
+msgstr "英語"
+
+#: includes/class-wp-statistics-shortcode.php:214
+msgid "International"
+msgstr "インターナショナル"
+
+#: includes/class-wp-statistics-shortcode.php:165
+msgid "Select the statistic you wish to display."
+msgstr "表示したい統計情報を選択します。"
+
+#: includes/class-wp-statistics-shortcode.php:162
+msgid "Statistic"
+msgstr "統計"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:41
+#: includes/class-wp-statistics-shortcode.php:173
+msgid "Post Count"
+msgstr "投稿数"
+
+#: includes/admin/templates/layout/date.range.php:30
+#: includes/class-wp-statistics-shortcode.php:186
+msgid "Time Frame"
+msgstr "時間範囲"
+
+#: includes/admin/templates/settings/general.php:150
+msgid "Enable or disable this feature"
+msgstr "この機能を有効または無効にします"
+
+#: includes/admin/templates/settings/general.php:33
+msgid "Seconds"
+msgstr "秒"
+
+#: includes/admin/templates/optimization/resources.php:86
+#: includes/admin/templates/optimization/resources.php:102
+#: includes/admin/templates/settings/general.php:279
+msgid "No"
+msgstr "いいえ"
+
+#: includes/admin/templates/optimization/resources.php:84
+#: includes/admin/templates/optimization/resources.php:100
+#: includes/admin/templates/settings/general.php:278
+msgid "Yes"
+msgstr "はい"
+
+#: includes/admin/templates/settings/general.php:303
+#: includes/class-wp-statistics-menus.php:207
+msgid "Search Engines"
+msgstr "サーチエンジン"
+
+#: includes/admin/templates/settings/general.php:338
+msgid "Disable %s from data collection and reporting."
+msgstr "データ収集およびレポートにおいて%sを無効にします。"
+
+#: includes/admin/templates/settings/externals.php:83
+msgid "Download of the GeoIP database will be scheduled for 2 days after the first Tuesday of the month."
+msgstr "GeoIPデータベースのダウンロードは月の最初の火曜日の2日後にスケジュールされます。"
+
+#: includes/admin/templates/settings/externals.php:84
+msgid "This option will also download the database if the local filesize is less than 1k (which usually means the stub that comes with the plugin is still in place)."
+msgstr "このオプションは、ローカルのファイルサイズが1K以下である場合(これは通常プラグイン付属のスタブが所定の位置にまだあることを意味します)にもデータベースをダウンロードします。"
+
+#: includes/admin/templates/settings/externals.php:116
+msgid "GeoIP collection is disabled due to the following reasons:"
+msgstr "GeoIPコレクションは、以下の理由により無効になっています："
+
+#: includes/admin/templates/settings/externals.php:120
+msgid "GeoIP collection requires the cURL PHP extension and it is not loaded on your version of PHP!"
+msgstr "GeoIPコレクションには、cURL PHP拡張モジュールが必要ですが、あなたがお使いのPHPにはロードされていません!"
+
+#: includes/admin/templates/settings/externals.php:126
+msgid "GeoIP collection requires the BC Math PHP extension and it is not loaded on your version of PHP!"
+msgstr "GeoIPコレクションにはBC Math PHP拡張モジュールが必要ですが, あなたがお使いのPHPにはロードされていません!"
+
+#: includes/admin/templates/settings/maintenance.php:5
+msgid "This will permanently delete data from the database each day, are you sure you want to enable this option?"
+msgstr "これは恒久的に毎日のデータベースからデータを削除します。このオプションを有効にしてもよろしいですか?"
+
+#: includes/admin/templates/optimization/purging.php:234
+#: includes/admin/templates/settings/maintenance.php:36
+msgid "Days"
+msgstr "日"
+
+#: includes/admin/templates/settings/notifications.php:10
+msgid "Common Report Options"
+msgstr "共通レポートオプション"
+
+#: includes/admin/templates/settings/notifications.php:33
+msgid "Update Reports"
+msgstr "更新レポート"
+
+#: includes/admin/templates/settings/notifications.php:66
+#: includes/class-wp-statistics-schedule.php:229
+msgid "Statistical reporting"
+msgstr "統計レポート"
+
+#: includes/admin/templates/settings/notifications.php:116
+msgid "Select how often to receive statistical report."
+msgstr "統計レポートを受信する頻度を選択します。"
+
+#: includes/admin/templates/settings/notifications.php:131
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/admin/templates/settings/notifications.php:135
+msgid "Select delivery method for statistical report."
+msgstr "統計レポートの配信方法を選択します。"
+
+#: includes/admin/templates/settings/notifications.php:137
+msgid "Note: To send SMS text messages please install the %s plugin."
+msgstr "注: SMSテキストメッセージを送信するには%sのプラグインをインストールしてください。"
+
+#: includes/admin/templates/settings/notifications.php:137
+msgid "WordPress SMS"
+msgstr "WordPress SMS"
+
+#: includes/admin/templates/settings/notifications.php:149
+msgid "Enter the contents of the report."
+msgstr "レポートの内容を入力してください。"
+
+#: includes/admin/templates/settings/notifications.php:160
+#: includes/class-wp-statistics-admin-bar.php:97
+#: includes/class-wp-statistics-widget.php:69
+#: includes/class-wp-statistics-widget.php:280
+msgid "Yesterday's Visitors"
+msgstr "昨日の訪問者数"
+
+#: includes/admin/templates/settings/notifications.php:162
+#: includes/class-wp-statistics-admin-bar.php:101
+#: includes/class-wp-statistics-widget.php:62
+#: includes/class-wp-statistics-widget.php:276
+msgid "Yesterday's Visits"
+msgstr "昨日の訪問数"
+
+#: includes/admin/templates/settings/notifications.php:164
+#: includes/class-wp-statistics-widget.php:104
+#: includes/class-wp-statistics-widget.php:300
+msgid "Total Visitors"
+msgstr "総訪問者数"
+
+#: includes/admin/templates/settings/notifications.php:166
+#: includes/class-wp-statistics-widget.php:97
+#: includes/class-wp-statistics-widget.php:296
+msgid "Total Visits"
+msgstr "総訪問数"
+
+#: includes/class-wp-statistics-shortcode.php:212
+msgid "None"
+msgstr "なし"
+
+#: includes/admin/templates/layout/tabs-settings.php:7
+#: includes/admin/templates/settings/overview-display.php:15
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#: includes/admin/templates/settings/overview-display.php:10
+msgid "The following items are global to all users."
+msgstr "以下の項目はすべてのユーザーに対して共通です。"
+
+#: includes/admin/templates/layout/tabs-settings.php:3
+msgid "General"
+msgstr "一般"
+
+#: includes/class-wp-statistics-schedule.php:108
+msgid "Once Weekly"
+msgstr "週1回"
+
+#: includes/class-wp-statistics-schedule.php:112
+msgid "Once Every 2 Weeks"
+msgstr "2週間毎に1回"
+
+#: includes/class-wp-statistics-schedule.php:116
+msgid "Once Every 4 Weeks"
+msgstr "4週間毎に1回"
+
+#: includes/class-wp-statistics-widget.php:16
+msgid "Show site stats in sidebar."
+msgstr "サイドバーにサイトの統計を表示します。"
+
+#: includes/class-wp-statistics-widget.php:111
+#: includes/class-wp-statistics-widget.php:304
+msgid "Total Page Views"
+msgstr "総ページビュー数"
+
+#: includes/class-wp-statistics-widget.php:125
+#: includes/class-wp-statistics-widget.php:331
+msgid "Total Posts"
+msgstr "総投稿数"
+
+#: includes/class-wp-statistics-widget.php:132
+#: includes/class-wp-statistics-widget.php:335
+msgid "Total Pages"
+msgstr "総ページ数"
+
+#: includes/class-wp-statistics-widget.php:139
+#: includes/class-wp-statistics-widget.php:339
+msgid "Total Comments"
+msgstr "総コメント数"
+
+#: includes/class-wp-statistics-widget.php:146
+#: includes/class-wp-statistics-widget.php:343
+msgid "Total Spams"
+msgstr "合計スパム数"
+
+#: includes/class-wp-statistics-widget.php:153
+#: includes/class-wp-statistics-widget.php:347
+msgid "Total Users"
+msgstr "総ユーザー数"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:49
+#: includes/class-wp-statistics-shortcode.php:181
+#: includes/class-wp-statistics-widget.php:181
+#: includes/class-wp-statistics-widget.php:363
+msgid "Last Post Date"
+msgstr "最終投稿日"
+
+#: includes/class-wp-statistics-widget.php:260
+msgid "Items"
+msgstr "アイテム"
+
+#: includes/class-wp-statistics-widget.php:313
+msgid "Select type of search engine"
+msgstr "検索エンジンの種類を選択"
+
+#. Plugin Name of the plugin
+#: includes/admin/class-wp-statistics-admin-privacy.php:25
+msgid "WP Statistics"
+msgstr "WP Statistics"
+
+#: includes/admin/class-wp-statistics-admin-network.php:72
+#: includes/class-wp-statistics-install.php:303
+#: includes/class-wp-statistics-menus.php:284
+msgid "Settings"
+msgstr "設定"
+
+#: includes/class-wp-statistics-install.php:320
+msgid "Click here to visit the plugin on WordPress.org"
+msgstr "ここをクリックして、WordPress.orgのプラグインを訪問してください"
+
+#: includes/class-wp-statistics-install.php:320
+msgid "Visit WordPress.org page"
+msgstr "WordPress.orgページを訪問します"
+
+#: includes/class-wp-statistics-install.php:322
+msgid "Rate this plugin"
+msgstr "このプラグインを評価する"
+
+#: includes/admin/class-wp-statistics-admin-network.php:64
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:40
+#: includes/class-wp-statistics-shortcode.php:172
+msgid "Searches"
+msgstr "検索"
+
+#: includes/admin/templates/settings/exclusions.php:141
+msgid "GeoIP Exclusions"
+msgstr "GeoIPの除外"
+
+#: includes/admin/templates/settings/exclusions.php:166
+msgid "Host Exclusions"
+msgstr "ホストの除外"
+
+#: includes/admin/templates/settings/exclusions.php:184
+msgid "Site URL Exclusions"
+msgstr "サイトのURLの除外"
+
+#: includes/admin/templates/settings/exclusions.php:191
+msgid "Exclude the login page for registering as a hit."
+msgstr "登録中のログインページを除外します。"
+
+#: includes/admin/templates/settings/exclusions.php:198
+msgid "Exclude the RSS feeds for registering as a hit."
+msgstr "RSSフィードをヒットの登録から除外します。"
+
+#: includes/admin/templates/add-ons.php:34
+msgid "Active"
+msgstr "有効"
+
+#: includes/admin/templates/settings/externals.php:59
+#: includes/admin/templates/settings/externals.php:196
+msgid "Next update will be"
+msgstr "次の更新は"
+
+#: includes/admin/templates/settings/general.php:180
+#: includes/admin/templates/settings/general.php:191
+#: includes/admin/templates/settings/general.php:337
+#: includes/admin/templates/settings/overview-display.php:25
+#: includes/admin/templates/settings/overview-display.php:42
+msgid "Disable"
+msgstr "無効化"
+
+#: includes/admin/templates/pages/online.php:45
+#: includes/admin/templates/settings/notifications.php:129
+msgid "Email"
+msgstr "メール"
+
+#: includes/admin/templates/settings/general.php:40
+msgid "Record All Users:"
+msgstr "すべてのユーザーを記録:"
+
+#: includes/admin/templates/settings/general.php:145
+msgid "Track All Pages:"
+msgstr "すべてのページを追跡:"
+
+#: includes/admin/templates/settings/general.php:115
+msgid "Coefficient per Visitor:"
+msgstr "訪問者あたりの係数:"
+
+#: includes/admin/templates/settings/externals.php:18
+msgid "GeoIP Collection:"
+msgstr "GeoIP コレクション:"
+
+#: includes/admin/templates/settings/notifications.php:88
+msgid "Schedule:"
+msgstr "スケジュール:"
+
+#: includes/admin/templates/settings/notifications.php:123
+msgid "Send reports via:"
+msgstr "経由でレポー​​トを送信:"
+
+#: includes/admin/templates/settings/exclusions.php:188
+msgid "Excluded Login Page:"
+msgstr "除外されたログインページ:"
+
+#: includes/admin/templates/settings/notifications.php:15
+msgid "Email Addresses:"
+msgstr "メールアドレス:"
+
+#: includes/admin/templates/settings/exclusions.php:202
+msgid "Excluded 404 Pages:"
+msgstr "除外された404ページ:"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:127
+msgid ","
+msgstr "、"
+
+#: includes/class-wp-statistics-widget.php:255
+msgid "Name"
+msgstr "名前"
+
+#: includes/admin/class-wp-statistics-admin-network.php:26
+#: includes/class-wp-statistics-menus.php:159
+#: includes/class-wp-statistics-widget.php:15
+msgid "Statistics"
+msgstr "統計情報"
+
+#: includes/admin/templates/settings/general.php:349
+msgid "Charts"
+msgstr "グラフ"
+
+#: includes/admin/templates/layout/tabs-settings.php:11
+msgid "Maintenance"
+msgstr "メンテナンス"
+
+#: includes/admin/templates/settings/general.php:268
+msgid "Miscellaneous"
+msgstr "その他"
+
+#: includes/admin/class-wp-statistics-admin-network.php:65
+#: includes/class-wp-statistics-menus.php:214
+msgid "Pages"
+msgstr "固定ページ"
+
+#: includes/admin/templates/settings/maintenance.php:19
+#: includes/admin/templates/settings/maintenance.php:53
+msgid "Enabled:"
+msgstr "有効:"
+
+#: includes/admin/templates/settings/exclusions.php:195
+msgid "Excluded RSS Feeds:"
+msgstr "除外された RSS フィード:"
+
+#: includes/admin/templates/settings/externals.php:5
+msgid "GeoIP Settings"
+msgstr "GeoIP 設定"
+
+#: includes/admin/templates/settings/externals.php:102
+msgid "Country Code for Private IP Addresses:"
+msgstr "プライベート IP アドレスの国コード:"
+
+#: includes/admin/templates/settings/general.php:28
+msgid "Check for Online Users Every:"
+msgstr "オンラインユーザーを確認する頻度:"
+
+#: includes/admin/templates/settings/general.php:287
+msgid "Hide Admin Notices About Non-active Features:"
+msgstr "無効な機能に関する管理者への通知を非表示:"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:66
+#: includes/class-wp-statistics-shortcode.php:221
+msgid "The post/page ID to get page statistics on."
+msgstr "ページの統計情報を取得する投稿/ページ ID。"
+
+#: includes/admin/templates/settings/privacy.php:36
+msgid "Store Entire User Agent String:"
+msgstr "完全なユーザーエージェント文字列を保存:"
+
+#: includes/admin/templates/settings/general.php:273
+msgid "Show Stats in Menu Bar:"
+msgstr "メニューバーに統計を表示:"
+
+#: includes/admin/templates/settings/notifications.php:50
+msgid "Pruning:"
+msgstr "刈り込み (プルーニング):"
+
+#: includes/admin/templates/settings/maintenance.php:31
+msgid "Purge Data Older Than:"
+msgstr "これより古いデータを消去:"
+
+#: includes/admin/templates/settings/general.php:354
+msgid "Include Totals:"
+msgstr "合計を含める:"
+
+#: includes/admin/templates/settings/general.php:308
+msgid "Add Page Title to Empty Search Words:"
+msgstr "空の検索語にページタイトルを追加:"
+
+#: includes/admin/templates/layout/tabs-settings.php:6
+msgid "Notifications"
+msgstr "通知"
+
+#: includes/admin/templates/layout/tabs-settings.php:13
+msgid "About"
+msgstr "このサイトについて"
+
+#: includes/admin/templates/settings/exclusions.php:131
+msgid "Treat any visitor with corrupt browser info (missing IP address or empty user agent string) as a robot."
+msgstr "ブラウザー情報が破損している (IP アドレスがないかユーザーエージェント文字列が空である) 訪問者をロボットとして扱います。"
+
+#: includes/admin/templates/settings/general.php:359
+msgid "Add a total line to charts with multiple values, like the search engine referrals"
+msgstr "検索エンジンのリファラのような複数値を持つグラフに合計線を追加"
+
+#: includes/class-wp-statistics-install.php:322
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr "ここをクリックして、WordPress.org でこのプラグインの評価とレビューをしてください"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:64
+#: includes/class-wp-statistics-shortcode.php:206
+msgid "The format to display numbers in: i18n, english, none."
+msgstr "数値を表示する形式: 国際化、英語、なし​​。"
+
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:62
+#: includes/class-wp-statistics-shortcode.php:199
+msgid "The search provider to get statistics on."
+msgstr "統計情報を取得するための検索プロバイダ。"
+
+#: includes/admin/templates/settings/externals.php:148
+msgid "Matomo Referrer Spam Blacklist Settings"
+msgstr "Matomo リファラースパムブラックリストの設定"
+
+#: includes/admin/templates/settings/access-level.php:81
+#: includes/admin/templates/settings/exclusions.php:220
+#: includes/admin/templates/settings/externals.php:178
+#: includes/admin/templates/settings/externals.php:216
+#: includes/admin/templates/settings/general.php:367
+#: includes/admin/templates/settings/maintenance.php:78
+#: includes/admin/templates/settings/notifications.php:198
+#: includes/admin/templates/settings/overview-display.php:54
+#: includes/admin/templates/settings/privacy.php:49
+#: includes/admin/templates/settings/reset.php:23
+#: includes/admin/templates/settings/visitor-ip.php:155
+msgid "Update"
+msgstr "更新"
+
+#: includes/admin/templates/layout/tabs-optimization.php:3
+#: includes/admin/templates/optimization/export.php:9
+msgid "Export"
+msgstr "エクスポート"
+
+#: includes/admin/templates/optimization/database.php:42
+#: includes/admin/templates/optimization/export.php:19
+#: includes/admin/templates/optimization/export.php:38
+#: includes/admin/templates/optimization/purging.php:211
+#: includes/admin/templates/optimization/purging.php:275
+#: includes/admin/templates/optimization/purging.php:299
+#: includes/admin/templates/settings/exclusions.php:119
+#: includes/admin/templates/settings/general.php:232
+#: includes/admin/templates/settings/notifications.php:93
+#: includes/admin/templates/settings/notifications.php:128
+msgid "Please select"
+msgstr "選択してください"
+
+#: includes/admin/templates/optimization/export.php:27
+msgid "Select the table for the output file."
+msgstr "ファイルに出力するテーブルを選択します."
+
+#: includes/admin/templates/optimization/export.php:44
+msgid "Select the output file type."
+msgstr "出力ファイルの種類を選択します。"
+
+#: includes/admin/templates/optimization/export.php:55
+msgid "Include a header row as the first line of the exported file."
+msgstr "ヘッダー行をエクスポートするファイルの最初の行として含めます."
+
+#: includes/admin/templates/optimization/export.php:56
+msgid "Start Now!"
+msgstr "今すぐスタート!"
+
+#: includes/admin/templates/optimization/historical.php:16
+msgid "Historical Values"
+msgstr "履歴"
+
+#: includes/admin/templates/optimization/historical.php:21
+msgid "Note: As you have just purged the database you must reload this page for these numbers to be correct."
+msgstr "注: データベースからパージしたばかりなので、番号を正しくするためにこのページをリロードする必要があります。"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:233
+#: includes/admin/class-wp-statistics-admin-network.php:66
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:32
+#: includes/admin/templates/optimization/historical.php:27
+#: includes/admin/templates/pages/hits.php:25
+#: includes/admin/templates/pages/page-chart.php:22
+#: includes/admin/templates/settings/general.php:77
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:38
+#: includes/class-wp-statistics-menus.php:186
+#: includes/class-wp-statistics-shortcode.php:170
+msgid "Visitors"
+msgstr "訪問者"
+
+#: includes/admin/templates/optimization/historical.php:31
+msgid "Number of historical number of visitors to the site (current value is %s)."
+msgstr "サイトへの訪問者数履歴の数 (現在値は%sです)。"
+
+#: includes/admin/templates/optimization/historical.php:41
+msgid "Number of historical number of visits to the site (current value is %s)."
+msgstr "サイトへの訪問数履歴の数 (現在値は%sです)。"
+
+#: includes/admin/templates/optimization/purging.php:220
+msgid "All data table will be lost."
+msgstr "すべてのテーブルデータが失われます."
+
+#: includes/admin/templates/optimization/purging.php:221
+msgid "Clear now!"
+msgstr "今すぐクリア!"
+
+#: includes/admin/templates/optimization/purging.php:237
+#: includes/admin/templates/optimization/purging.php:253
+msgid "Purge now!"
+msgstr "今すぐパージ!"
+
+#: includes/admin/templates/optimization/purging.php:265
+msgid "Delete User Agent Types"
+msgstr "ユーザーエージェントの種類を削除"
+
+#: includes/admin/templates/optimization/purging.php:285
+msgid "All visitor data will be lost for this agent type."
+msgstr "このエージェントの全訪問者データは失われます。"
+
+#: includes/admin/templates/optimization/purging.php:286
+#: includes/admin/templates/optimization/purging.php:312
+#: includes/admin/templates/optimization/purging.php:327
+msgid "Delete now!"
+msgstr "今すぐ削除!"
+
+#: includes/admin/templates/optimization/purging.php:311
+msgid "All visitor data will be lost for this platform type."
+msgstr "このプラットフォームの全訪問者データは失われます。"
+
+#: includes/admin/templates/optimization/resources.php:6
+msgid "Resources"
+msgstr "リソース"
+
+#: includes/admin/templates/optimization/resources.php:11
+#: includes/admin/templates/optimization/resources.php:15
+msgid "Memory usage in PHP"
+msgstr "PHPでのメモリ使用量"
+
+#: includes/admin/templates/optimization/resources.php:21
+msgid "PHP Memory Limit"
+msgstr "PHP使用メモリの制限"
+
+#: includes/admin/templates/optimization/resources.php:26
+msgid "The memory limit a script is allowed to consume, set in php.ini."
+msgstr "スクリプトが消費できるメモリの制限、php.iniで設定します。"
+
+#: includes/admin/templates/optimization/resources.php:35
+msgid "Number of rows in the %s table"
+msgstr "%sのテーブルの行数"
+
+#: includes/admin/templates/optimization/resources.php:38
+msgid "Row"
+msgid_plural "Rows"
+msgstr[0] "行"
+
+#: includes/admin/templates/optimization/resources.php:39
+msgid "Number of rows"
+msgstr "行数"
+
+#: includes/admin/templates/optimization/resources.php:52
+msgid "Version Info"
+msgstr "バージョン情報"
+
+#: includes/admin/templates/optimization/resources.php:73
+msgid "The PHP version you are running."
+msgstr "実行中のPHPのバージョン."
+
+#: includes/admin/templates/optimization/resources.php:79
+msgid "PHP Safe Mode"
+msgstr "PHPセーフモード"
+
+#: includes/admin/templates/optimization/resources.php:110
+msgid "jQuery Version"
+msgstr "jQueryのバージョン"
+
+#: includes/admin/templates/optimization/resources.php:118
+msgid "The jQuery version you are running."
+msgstr "実行中のjQueryのバージョン."
+
+#: includes/admin/templates/optimization/resources.php:132
+msgid "cURL not installed"
+msgstr "cURLがインストールされていません"
+
+#: includes/admin/templates/optimization/resources.php:147
+#: includes/admin/templates/optimization/resources.php:163
+#: includes/admin/templates/optimization/resources.php:179
+msgid "Installed"
+msgstr "インストール済み"
+
+#: includes/admin/templates/add-ons.php:38
+#: includes/admin/templates/optimization/resources.php:149
+#: includes/admin/templates/optimization/resources.php:165
+#: includes/admin/templates/optimization/resources.php:181
+msgid "Not installed"
+msgstr "未インストール"
+
+#: includes/admin/templates/optimization/resources.php:194
+msgid "File Info"
+msgstr "ファイル情報"
+
+#: includes/admin/templates/optimization/resources.php:199
+msgid "GeoIP Database"
+msgstr "GeoIPデータベース"
+
+#: includes/admin/templates/optimization/resources.php:208
+msgid "Database file does not exist."
+msgstr "データベースファイルが存在しません。"
+
+#: includes/admin/templates/optimization/resources.php:210
+msgid ", created on "
+msgstr "作成日"
+
+#: includes/admin/templates/optimization/resources.php:215
+msgid "The file size and date of the GeoIP database."
+msgstr "GeoIPデータベースのファイルサイズと日付。"
+
+#: includes/admin/templates/optimization/resources.php:225
+msgid "Client Info"
+msgstr "クライアント情報"
+
+#: includes/admin/templates/optimization/resources.php:230
+msgid "Client IP"
+msgstr "クライアントのIP"
+
+#: includes/admin/templates/optimization/resources.php:235
+msgid "The client IP address."
+msgstr "クライアントのIPアドレス。"
+
+#: includes/admin/templates/optimization/resources.php:241
+msgid "User Agent"
+msgstr "ユーザーエージェント"
+
+#: includes/admin/templates/optimization/resources.php:246
+msgid "The client user agent string."
+msgstr "クライアントのユーザーエージェント文字列。"
+
+#: includes/admin/templates/optimization/resources.php:282
+msgid "The detected client platform."
+msgstr "検出されたクライアントのプラットフォーム。"
+
+#: includes/admin/templates/optimization/updates.php:36
+msgid "This will replace all IP addresses in the database with hash values and cannot be undo, are you sure?"
+msgstr "これは、データベース内のすべてのIPアドレスをハッシュ値に置き換え、元に戻すことができません。本当に良いですか?"
+
+#: includes/admin/templates/optimization/updates.php:9
+msgid "GeoIP Options"
+msgstr "GeoIPのオプション"
+
+#: includes/admin/templates/optimization/updates.php:20
+msgid "Updates any unknown location data in the database, this may take a while"
+msgstr "データベース内にある未知の位置データをすべて更新します。これは時間がかかる場合があります"
+
+#: includes/admin/templates/optimization/updates.php:26
+msgid "IP Addresses"
+msgstr "IPアドレス"
+
+#: includes/admin/templates/optimization/updates.php:37
+msgid "Replace IP addresses in the database with hash values, you will not be able to recover the IP addresses in the future to populate location information afterwards and this may take a while"
+msgstr "データベース内のIPアドレスをハッシュ値に置き換えます。将来、位置情報を移入するためにIPアドレスを回復することはできません。これは時間がかかる場合があります"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:57
+msgid "IP Addresses replaced with hash values."
+msgstr "IPアドレスをハッシュ値に置き換えます。"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-optimization.php:65
+msgid "Install routine complete."
+msgstr "イ​​ンストールルーチンが完了しました。"
+
+#: includes/admin/templates/layout/tabs-optimization.php:2
+msgid "Resources/Information"
+msgstr "リソース/情報"
+
+#: includes/admin/templates/layout/tabs-optimization.php:4
+msgid "Purging"
+msgstr "削除"
+
+#: includes/admin/templates/layout/tabs-optimization.php:5
+msgid "Database"
+msgstr "データベース"
+
+#: includes/admin/templates/layout/tabs-optimization.php:6
+msgid "Updates"
+msgstr "更新"
+
+#: includes/admin/templates/layout/tabs-optimization.php:7
+msgid "Historical"
+msgstr "履歴"
+
+#: includes/admin/templates/settings/about.php:50
+msgid "Visit Us Online"
+msgstr "オンラインで我々を訪問します"
+
+#: includes/admin/templates/settings/about.php:65
+msgid "Rate and Review at WordPress.org"
+msgstr "WordPress.orgで評価とレビュー"
+
+#: includes/admin/templates/settings/about.php:81
+msgid "Translations"
+msgstr "翻訳"
+
+#: includes/admin/templates/settings/about.php:96
+msgid "Support"
+msgstr "サポート"
+
+#: includes/admin/templates/settings/about.php:110
+msgid "FAQs"
+msgstr "よくある質問"
+
+#: includes/admin/templates/settings/about.php:126
+msgid "Have you search the Internet for any error messages you are receiving?"
+msgstr "受信したすべてのエラーメッセージをインターネットで検索しましたか?"
+
+#: includes/admin/templates/settings/about.php:130
+msgid "Make sure you have access to your PHP error logs."
+msgstr "PHPエラーログへのアクセス権を持っていることを確認してください。"
+
+#: includes/admin/templates/settings/about.php:133
+msgid "And a few things to double-check:"
+msgstr "ダブルチェックすること:"
+
+#: includes/admin/templates/settings/about.php:137
+msgid "Have you tried disabling any other plugins you may have installed?"
+msgstr "インストール済みの他のプラグインを無効にすることを試みたことがありますか?"
+
+#: includes/admin/templates/settings/about.php:141
+msgid "Have you tried using the default WordPress theme?"
+msgstr "WordPressのデフォルトテーマを使用してみましたか?"
+
+#: includes/admin/templates/settings/about.php:142
+msgid "Have you double checked the plugin settings?"
+msgstr "プラグインの設定をもう一度チェックしましたか?"
+
+#: includes/admin/templates/settings/about.php:143
+msgid "Do you have all the required PHP extensions installed?"
+msgstr "必要なすべてのPHP拡張モジュールがインストールされていますか?"
+
+#: includes/admin/templates/settings/about.php:153
+msgid "Have you checked your PHP and web server error logs?"
+msgstr "PHPとWebサーバのエラーログをチェックしましたか?"
+
+#: includes/admin/templates/settings/about.php:156
+msgid "Still not having any luck?"
+msgstr "まだ足りないものはありませんか?"
+
+#: includes/admin/templates/settings/exclusions.php:23
+msgid "Exclude User Roles"
+msgstr "除外するユーザ役割"
+
+#: includes/admin/templates/settings/exclusions.php:39
+#: includes/admin/templates/settings/exclusions.php:190
+#: includes/admin/templates/settings/exclusions.php:197
+#: includes/admin/templates/settings/exclusions.php:204
+msgid "Exclude"
+msgstr "除外する"
+
+#: includes/admin/templates/settings/exclusions.php:40
+msgid "Exclude %s role from data collection."
+msgstr "データ収集から%sの役割を除外します。"
+
+#: includes/admin/templates/settings/exclusions.php:51
+msgid "IP/Robot Exclusions"
+msgstr "IP/ロボット除外"
+
+#: includes/admin/templates/settings/exclusions.php:12
+#: includes/admin/templates/settings/exclusions.php:76
+#: includes/admin/templates/settings/exclusions.php:111
+#: includes/admin/templates/settings/exclusions.php:130
+#: includes/admin/templates/settings/externals.php:24
+#: includes/admin/templates/settings/externals.php:41
+#: includes/admin/templates/settings/externals.php:56
+#: includes/admin/templates/settings/externals.php:95
+#: includes/admin/templates/settings/externals.php:165
+#: includes/admin/templates/settings/externals.php:193
+#: includes/admin/templates/settings/general.php:21
+#: includes/admin/templates/settings/general.php:45
+#: includes/admin/templates/settings/general.php:66
+#: includes/admin/templates/settings/general.php:86
+#: includes/admin/templates/settings/general.php:97
+#: includes/admin/templates/settings/general.php:108
+#: includes/admin/templates/settings/general.php:138
+#: includes/admin/templates/settings/general.php:149
+#: includes/admin/templates/settings/general.php:165
+#: includes/admin/templates/settings/general.php:203
+#: includes/admin/templates/settings/general.php:215
+#: includes/admin/templates/settings/general.php:256
+#: includes/admin/templates/settings/general.php:292
+#: includes/admin/templates/settings/general.php:313
+#: includes/admin/templates/settings/general.php:358
+#: includes/admin/templates/settings/maintenance.php:24
+#: includes/admin/templates/settings/maintenance.php:58
+#: includes/admin/templates/settings/notifications.php:43
+#: includes/admin/templates/settings/notifications.php:55
+#: includes/admin/templates/settings/notifications.php:76
+#: includes/admin/templates/settings/notifications.php:190
+#: includes/admin/templates/settings/privacy.php:18
+#: includes/admin/templates/settings/privacy.php:29
+#: includes/admin/templates/settings/privacy.php:41
+msgid "Enable"
+msgstr "有効化"
+
+#: includes/admin/templates/optimization/export.php:14
+msgid "Export from:"
+msgstr "エクスポート対象:"
+
+#: includes/admin/templates/optimization/export.php:33
+msgid "Export To:"
+msgstr "エクスポート先:"
+
+#: includes/admin/templates/optimization/purging.php:206
+msgid "Empty Table:"
+msgstr "テーブルを空にする:"
+
+#: includes/admin/templates/optimization/updates.php:31
+#: includes/admin/templates/settings/privacy.php:25
+msgid "Hash IP Addresses:"
+msgstr "ハッシュ IP アドレス:"
+
+#: includes/admin/templates/settings/exclusions.php:92
+msgid "Excluded IP Address List:"
+msgstr "除外された IP アドレスリスト:"
+
+#: includes/admin/templates/optimization/purging.php:270
+msgid "Delete Agents:"
+msgstr "エージェントの削除:"
+
+#: includes/admin/templates/optimization/purging.php:294
+msgid "Delete Platforms:"
+msgstr "プラットフォームの削除:"
+
+#: includes/admin/templates/settings/exclusions.php:55
+msgid "Robot List:"
+msgstr "ロボットリスト:"
+
+#: includes/admin/templates/optimization/purging.php:10
+#: includes/admin/templates/optimization/purging.php:42
+#: includes/admin/templates/optimization/purging.php:73
+#: includes/admin/templates/optimization/purging.php:104
+#: includes/admin/templates/optimization/purging.php:137
+#: includes/admin/templates/optimization/purging.php:170
+msgid "Are you sure?"
+msgstr "本当に実行しますか ?"
+
+#: includes/admin/templates/optimization/resources.php:68
+msgid "PHP Version"
+msgstr "PHP バージョン"
+
+#: includes/admin/templates/optimization/resources.php:124
+msgid "cURL Version"
+msgstr "cURL バージョン"
+
+#: includes/admin/templates/settings/exclusions.php:121
+msgid "Create a new Honey Pot page"
+msgstr "新しいハニーポットのページを作成"
+
+#: includes/admin/templates/optimization/export.php:50
+msgid "Include Header Row:"
+msgstr "ヘッダー行を含める:"
+
+#: includes/admin/templates/settings/exclusions.php:87
+msgid "Treat visitors with more than this number of visits per day as robots. 0 = disabled."
+msgstr "1日あたりの訪問がこの数以上の訪問者をロボットとして扱います。0 = 無効。"
+
+#: includes/admin/templates/settings/exclusions.php:127
+msgid "Treat Corrupt Browser Info as a Bot:"
+msgstr "破損しているブラウザー情報をボットとして処理:"
+
+#: includes/admin/templates/settings/exclusions.php:83
+msgid "Robot Visit Threshold:"
+msgstr "ロボット訪問のしきい値:"
+
+#: includes/admin/templates/optimization/purging.php:229
+msgid "Purge records older than:"
+msgstr "これより古いレコードを消去:"
+
+#: includes/admin/templates/optimization/purging.php:245
+msgid "Purge visitors with more than:"
+msgstr "これより以上の訪問者を消去:"
+
+#: includes/admin/templates/settings/exclusions.php:9
+msgid "Record Exclusions:"
+msgstr "除外レコード:"
+
+#: includes/admin/templates/settings/exclusions.php:67
+msgid "Reset to Default"
+msgstr "初期設定に戻す"
+
+#: includes/admin/templates/settings/about.php:35
+msgid "Donate"
+msgstr "寄付"
+
+#: includes/admin/templates/optimization/purging.php:201
+msgid "Data"
+msgstr "データ"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:254
+#: includes/admin/meta-box/wp-statistics-meta-box-browsers.php:162
+#: includes/admin/templates/optimization/resources.php:252
+#: includes/admin/templates/pages/online.php:11
+#: includes/admin/templates/pages/refer.url.php:31
+#: includes/admin/templates/pages/top-visitors.php:18
+#: includes/admin/templates/pages/visitors.php:25
+#: includes/admin/templates/pages/words.php:26
+msgid "Browser"
+msgstr "ブラウザー"
+
+#: includes/admin/templates/optimization/resources.php:271
+msgid "The detected client browser version."
+msgstr "検出されたクライアントブラウザーのバージョン。"
+
+#: includes/admin/templates/optimization/resources.php:260
+msgid "The detected client browser."
+msgstr "検出されたクライアントのブラウザー。"
+
+#: includes/admin/templates/settings/exclusions.php:73
+msgid "Force Robot List Update After Upgrades:"
+msgstr "アップグレード後にロボット一覧を強制更新する:"
+
+#: includes/admin/templates/settings/access-level.php:71
+msgid "Hint: manage_network = Super Admin Network, manage_options = Administrator, edit_others_posts = Editor, publish_posts = Author, edit_posts = Contributor, read = Everyone."
+msgstr "ヒント: manage_network = ネットワーク特権管理者、manage_options = 管理者、edit_others_posts = 編集者、publish_posts = 投稿者、edit_posts = 寄稿者、read= すべて。"
+
+#: includes/admin/templates/settings/about.php:136
+msgid "How's your memory_limit in php.ini?"
+msgstr "php.ini の memory_limit はいかがですか ?"
+
+#: includes/admin/templates/optimization/historical.php:48
+#: includes/admin/templates/optimization/updates.php:19
+#: includes/admin/templates/optimization/updates.php:36
+msgid "Update Now!"
+msgstr "今すぐ更新 !"
+
+#: includes/class-wp-statistics-search-engine.php:37
+msgid "Ask.com"
+msgstr "Ask.com"
+
+#: includes/class-wp-statistics-exclusion.php:26
+msgid "Referrer Spam"
+msgstr "リファラースパム"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:242
+#: includes/admin/templates/pages/refer.url.php:35
+#: includes/admin/templates/pages/top-visitors.php:2
+#: includes/admin/templates/pages/top-visitors.php:25
+#: includes/admin/templates/pages/visitors.php:34
+#: includes/admin/templates/pages/words.php:33
+msgid "Date"
+msgstr "日付"
+
+#: includes/class-wp-statistics-purge.php:220
+msgid "No visitors found to purge."
+msgstr "パージすべきユーザは見つかりませんでした。"
+
+#: includes/class-wp-statistics-purge.php:216
+msgid "%s records purged successfully."
+msgstr "%s のレコードが正常にパージされました。"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:284
+#: includes/class-wp-statistics-purge.php:223
+msgid "Number of hits must be greater than or equal to 10!"
+msgstr "ヒット数は10以上でなければなりません!"
+
+#: includes/admin/class-wp-statistics-admin-notices.php:100
+msgid "Donate Now!"
+msgstr "今すぐ寄付します!"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:267
+#: includes/admin/templates/layout/date.range.php:48
+msgid "to"
+msgstr "〜"
+
+#: includes/class-wp-statistics-exclusion.php:29
+msgid "Excluded URL"
+msgstr "除外URL"
+
+#: includes/class-wp-statistics-search-engine.php:97
+msgid "Yahoo!"
+msgstr "Yahoo!"
+
+#: includes/class-wp-statistics-search-engine.php:107
+msgid "Yandex"
+msgstr "Yandex"
+
+#: includes/class-wp-statistics-search-engine.php:67
+msgid "clearch.org"
+msgstr "clearch.org"
+
+#: includes/class-wp-statistics-search-engine.php:77
+msgid "DuckDuckGo"
+msgstr "DuckDuckGo"
+
+#: includes/class-wp-statistics-search-engine.php:57
+msgid "Bing"
+msgstr "Bing"
+
+#: includes/class-wp-statistics-search-engine.php:47
+msgid "Baidu"
+msgstr "百度"
+
+#: includes/class-wp-statistics-exclusion.php:24
+#: includes/class-wp-statistics-pages.php:358
+msgid "Login Page"
+msgstr "ログインページ"
+
+#: includes/class-wp-statistics-exclusion.php:25
+msgid "Admin Page"
+msgstr "管理者ページ"
+
+#: includes/class-wp-statistics-exclusion.php:23
+msgid "Self Referral"
+msgstr "自己参照"
+
+#: includes/class-wp-statistics-exclusion.php:22
+msgid "IP Match"
+msgstr "IPマッチ"
+
+#: includes/class-wp-statistics-exclusion.php:20
+msgid "Robot"
+msgstr "ロボット"
+
+#: includes/class-wp-statistics-exclusion.php:34
+msgid "Robot threshold"
+msgstr "ロボットのしきい値"
+
+#: includes/class-wp-statistics-exclusion.php:31
+msgid "Host name"
+msgstr "ホスト名"
+
+#: includes/class-wp-statistics-exclusion.php:32
+msgid "GeoIP"
+msgstr "GeoIP"
+
+#: includes/class-wp-statistics-meta-box.php:79
+msgid "Quick Stats"
+msgstr "クイック統計"
+
+#: includes/class-wp-statistics-meta-box.php:123
+msgid "Top 10 Countries"
+msgstr "上位10カ国"
+
+#: includes/class-wp-statistics-meta-box.php:178
+msgid "Today's Visitors Map"
+msgstr "今日の訪問者マップ"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-hits.php:34
+#: includes/class-wp-statistics-meta-box.php:139
+#: includes/class-wp-statistics-meta-box.php:209
+msgid "Hit Statistics"
+msgstr "ヒット統計"
+
+#: includes/class-wp-statistics-meta-box.php:155
+msgid "Top 10 Pages"
+msgstr "トップ10ページ"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:32
+#: includes/class-wp-statistics-meta-box.php:171
+msgid "Recent Visitors"
+msgstr "最近の訪問者"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-refer.php:37
+msgid "Top Referring Sites"
+msgstr "トップ参照サイト"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-summary.php:33
+#: includes/class-wp-statistics-meta-box.php:147
+#: includes/class-wp-statistics-widget.php:118
+#: includes/class-wp-statistics-widget.php:308
+msgid "Search Engine Referrals"
+msgstr "参照元検索エンジン"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-words.php:36
+#: includes/class-wp-statistics-meta-box.php:194
+msgid "Latest Search Words"
+msgstr "最新の検索ワード"
+
+#: includes/class-wp-statistics-meta-box.php:163
+msgid "Top 10 Visitors Today"
+msgstr "今日のトップ10訪問者"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-post.php:21
+msgid "This post is not yet published."
+msgstr "この記事はまだ公開されていません。"
+
+#: includes/class-wp-statistics-geoip.php:398
+msgid "Unable to load the GeoIP database, make sure you have downloaded it in the settings page."
+msgstr "GeoIPデータベースを読み込むことができません。設定ページでそれをダウンロードしていることを確認してください。"
+
+#: includes/class-wp-statistics-geoip.php:429
+msgid "Updated %s GeoIP records in the visitors database."
+msgstr "訪問者データベースで%sのGeoIPレコードを更新しました。"
+
+#: includes/class-wp-statistics-purge.php:46
+#: includes/class-wp-statistics-purge.php:76
+#: includes/class-wp-statistics-purge.php:87
+#: includes/class-wp-statistics-purge.php:97
+#: includes/class-wp-statistics-purge.php:160
+msgid "%s data older than %s days purged successfully."
+msgstr "%sの%s日以上古いデータを正常に削除しました。"
+
+#: includes/class-wp-statistics-purge.php:48
+#: includes/class-wp-statistics-purge.php:78
+#: includes/class-wp-statistics-purge.php:89
+#: includes/class-wp-statistics-purge.php:99
+#: includes/class-wp-statistics-purge.php:162
+msgid "No records found to purge from %s!"
+msgstr "%sから削除すべきレコードはありません!"
+
+#: includes/class-wp-statistics-purge.php:167
+#: includes/class-wp-statistics-purge.php:227
+msgid "Database pruned on"
+msgstr "データベース整理"
+
+#: includes/class-wp-statistics-purge.php:172
+msgid "Please select a value over 30 days."
+msgstr "30日以上の値を選択してください。"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:260
+#: includes/admin/templates/optimization/resources.php:277
+#: includes/admin/templates/pages/top-visitors.php:27
+#: includes/admin/templates/pages/visitors.php:39
+msgid "Platform"
+msgstr "プラットフォーム"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-exclusions.php:35
+msgid "Exclusions Statistics"
+msgstr "除外統計"
+
+#: includes/admin/class-wp-statistics-admin-template.php:217
+msgid "10 Days"
+msgstr "10日"
+
+#: includes/admin/class-wp-statistics-admin-template.php:218
+msgid "20 Days"
+msgstr "20日"
+
+#: includes/admin/class-wp-statistics-admin-template.php:219
+msgid "30 Days"
+msgstr "30日"
+
+#: includes/admin/class-wp-statistics-admin-template.php:220
+msgid "2 Months"
+msgstr "2ヶ月"
+
+#: includes/admin/class-wp-statistics-admin-template.php:221
+msgid "3 Months"
+msgstr "3ヶ月"
+
+#: includes/admin/class-wp-statistics-admin-template.php:222
+msgid "6 Months"
+msgstr "6ヶ月"
+
+#: includes/admin/class-wp-statistics-admin-template.php:223
+msgid "9 Months"
+msgstr "9ヶ月"
+
+#: includes/admin/class-wp-statistics-admin-template.php:224
+msgid "1 Year"
+msgstr "1年"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:232
+#: includes/admin/pages/class-wp-statistics-admin-page-online.php:25
+#: includes/admin/templates/settings/general.php:11
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:36
+#: includes/class-wp-statistics-meta-box.php:185
+#: includes/class-wp-statistics-shortcode.php:168
+#: includes/class-wp-statistics-widget.php:41
+#: includes/class-wp-statistics-widget.php:264
+msgid "Online Users"
+msgstr "オンラインユーザー"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:275
+#: includes/admin/class-wp-statistics-admin-template.php:230
+#: includes/admin/pages/class-wp-statistics-admin-page-authors.php:58
+#: includes/admin/pages/class-wp-statistics-admin-page-category.php:60
+#: includes/admin/pages/class-wp-statistics-admin-page-tags.php:61
+#: includes/admin/pages/class-wp-statistics-admin-page-visitors.php:54
+#: includes/admin/pages/class-wp-statistics-admin-page-words.php:44
+#: includes/admin/templates/optimization/database.php:48
+#: includes/admin/templates/optimization/purging.php:217
+#: includes/admin/templates/pages/refer.url.php:3
+#: includes/admin/templates/pages/top.refer.php:4
+#: includes/class-wp-statistics-widget.php:326
+msgid "All"
+msgstr "すべて"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-searches.php:34
+msgid "Search Engine Referral Statistics"
+msgstr "参照元検索エンジンの統計"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:240
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:59
+msgid "Total"
+msgstr "合計"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:245
+msgid "Rank"
+msgstr "ランク"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:246
+msgid "Flag"
+msgstr "フラグ"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:247
+#: includes/admin/templates/pages/online.php:13
+#: includes/admin/templates/pages/refer.url.php:33
+#: includes/admin/templates/pages/top-visitors.php:20
+#: includes/admin/templates/pages/top.refer.php:24
+#: includes/admin/templates/pages/visitors.php:27
+#: includes/admin/templates/pages/words.php:28
+msgid "Country"
+msgstr "国"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:248
+msgid "Visitor Count"
+msgstr "訪問者数"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-pages.php:63
+msgid "Top Pages"
+msgstr "トップページ"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-post.php:61
+msgid "Number of Hits"
+msgstr "ヒット数"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:234
+#: includes/admin/class-wp-statistics-admin-user.php:33
+#: includes/admin/templates/optimization/historical.php:37
+#: includes/admin/templates/pages/hits.php:23
+#: includes/admin/templates/pages/pages.php:41
+#: includes/admin/templates/settings/general.php:56
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:37
+#: includes/class-wp-statistics-shortcode.php:169
+msgid "Visits"
+msgstr "訪問"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-referring.php:36
+#: includes/admin/templates/pages/top.refer.php:26
+msgid "References"
+msgstr "参照"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-browsers.php:123
+msgid "Other"
+msgstr "その他"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:235
+#: includes/admin/class-wp-statistics-admin-assets.php:353
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:54
+msgid "Today"
+msgstr "今日"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:236
+#: includes/admin/TinyMCE/class-wp-statistics-tinymce.php:55
+msgid "Yesterday"
+msgstr "昨日"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-summary.php:34
+msgid "Current Time and Date"
+msgstr "現在の日付と時刻"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-summary.php:35
+msgid "(Adjustment)"
+msgstr "(調整)"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:258
+#: includes/admin/class-wp-statistics-admin-network.php:60
+#: includes/admin/class-wp-statistics-admin-post.php:60
+#: includes/admin/class-wp-statistics-admin-post.php:155
+#: includes/admin/class-wp-statistics-admin-taxonomy.php:56
+#: includes/admin/class-wp-statistics-admin-taxonomy.php:63
+#: includes/admin/templates/optimization/purging.php:250
+#: includes/admin/templates/pages/top-visitors.php:30
+#: includes/admin/templates/pages/visitors.php:40
+#: includes/admin/templates/settings/maintenance.php:70
+#: includes/class-wp-statistics-menus.php:172
+msgid "Hits"
+msgstr "ヒット数"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:256
+#: includes/admin/templates/pages/online.php:18
+#: includes/admin/templates/pages/refer.url.php:30
+#: includes/admin/templates/pages/top-visitors.php:26
+#: includes/admin/templates/pages/visitors.php:38
+#: includes/admin/templates/pages/words.php:34
+msgid "IP"
+msgstr "IP"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:259
+msgid "Agent"
+msgstr "エージェント"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:261
+#: includes/admin/templates/optimization/resources.php:266
+msgid "Version"
+msgstr "バージョン"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:108
+msgid "No agent data found to remove!"
+msgstr "削除すべきエージェントのデータはありません!"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:112
+#: includes/admin/class-wp-statistics-admin-ajax.php:149
+#: includes/admin/class-wp-statistics-admin-ajax.php:185
+#: includes/admin/class-wp-statistics-admin-ajax.php:207
+msgid "Please select the desired items."
+msgstr "希望の項目を選択してください。"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:144
+msgid "%s platform data deleted successfully."
+msgstr "%sのプラットフォームのデータが正常に削除されました。"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:146
+msgid "No platform data found to remove!"
+msgstr "削除すべきプラットフォームのデータはありません!"
+
+#: includes/class-wp-statistics-db.php:134
+msgid "%s table data deleted successfully."
+msgstr "%sのテーブルデータが正常に削除されました。"
+
+#: includes/class-wp-statistics-db.php:138
+msgid "Error, %s not emptied!"
+msgstr "エラー %sが空ではありません!"
+
+#: includes/admin/templates/optimization/database.php:8
+msgid "Database Setup"
+msgstr "データベースのセットアップ"
+
+#: includes/admin/templates/optimization/database.php:17
+msgid "Install Now!"
+msgstr "今すぐインストール!"
+
+#: includes/admin/class-wp-statistics-admin-network.php:67
+#: includes/class-wp-statistics-menus.php:221
+msgid "Countries"
+msgstr "国"
+
+#: includes/admin/class-wp-statistics-admin-network.php:70
+#: includes/admin/templates/layout/tabs-settings.php:9
+#: includes/admin/templates/pages/exclusions.php:22
+#: includes/admin/templates/settings/exclusions.php:5
+#: includes/class-wp-statistics-menus.php:270
+#: includes/class-wp-statistics-meta-box.php:225
+msgid "Exclusions"
+msgstr "除外"
+
+#: includes/admin/meta-box/wp-statistics-meta-box-hits.php:91
+msgid "Hits in the last %s days"
+msgstr "最近の%s日間のヒット"
+
+#: includes/class-wp-statistics-search-engine.php:87
+msgid "Google"
+msgstr "Google"
+
+#: includes/admin/templates/pages/exclusions.php:26
+#: includes/admin/templates/pages/hits.php:29
+msgid "Chart Total:"
+msgstr "チャート合計:"
+
+#: includes/admin/templates/pages/exclusions.php:31
+#: includes/admin/templates/pages/hits.php:37
+msgid "All Time Total:"
+msgstr "全時間の合計:"
+
+#: includes/admin/templates/optimization/database.php:13
+msgid "Re-run Install:"
+msgstr "インストールを再実行:"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:252
+msgid "Address"
+msgstr "住所"
+
+#: includes/admin/templates/pages/online.php:50
+#: includes/admin/templates/pages/refer.url.php:53
+#: includes/admin/templates/pages/top-visitors.php:59
+#: includes/admin/templates/pages/visitors.php:67
+#: includes/admin/templates/settings/overview-display.php:32
+msgid "Map"
+msgstr "地図"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:262
+#: includes/admin/templates/pages/online.php:20
+#: includes/admin/templates/pages/visitors.php:45
+msgid "Page"
+msgstr "固定ページ"
+
+#: includes/class-wp-statistics-meta-box.php:86
+msgid "Summary"
+msgstr "要約"
+
+#: includes/class-wp-statistics-exclusion.php:30
+msgid "User Role"
+msgstr "ユーザー権限グループ"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-country.php:36
+msgid "Top Countries"
+msgstr "上位国"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:237
+msgid "Last 7 Days (Week)"
+msgstr "最近7日間 (1週間)"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:239
+msgid "Last 365 Days (Year)"
+msgstr "最近365日 (年)"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:238
+msgid "Last 30 Days (Month)"
+msgstr "最近30日 (月)"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:241
+msgid "Daily Total"
+msgstr "1日の合計"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:269
+#: includes/admin/templates/layout/date.range.php:50
+#: includes/admin/templates/pages/top-visitors.php:5
+msgid "Go"
+msgstr "Go"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:115
+#: includes/admin/class-wp-statistics-admin-ajax.php:152
+#: includes/admin/class-wp-statistics-admin-ajax.php:188
+#: includes/admin/class-wp-statistics-admin-ajax.php:218
+#: includes/admin/class-wp-statistics-admin-ajax.php:235
+#: includes/admin/class-wp-statistics-admin-ajax.php:260
+#: includes/admin/class-wp-statistics-admin-ajax.php:289
+msgid "Access denied!"
+msgstr "アクセスが拒否されました。"
+
+#: includes/class-wp-statistics-meta-box.php:93
+msgid "Top 10 Browsers"
+msgstr "上位10ブラウザー"
+
+#: includes/admin/class-wp-statistics-admin-assets.php:244
+#: includes/admin/class-wp-statistics-admin-network.php:68
+#: includes/class-wp-statistics-menus.php:249
+msgid "Browsers"
+msgstr "ブラウザー"
+
+#: includes/admin/pages/class-wp-statistics-admin-page-browsers.php:37
+msgid "Browser Statistics"
+msgstr "ブラウザー統計情報"
+
+#: includes/admin/templates/pages/online.php:19
+msgid "Online For"
+msgstr "オンライン滞在時間"
+
+#: includes/admin/class-wp-statistics-admin-ajax.php:106
+msgid "%s agent data deleted successfully."
+msgstr "%sのエージェントデータが正常に削除されました。"
